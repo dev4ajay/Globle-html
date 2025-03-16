@@ -88,3 +88,37 @@ h2 {
 .box-3 { background-color: #2ed573 !important; }  /* Green */
 .box-4 { background-color: #ffa502; }  /* Orange */
 .box-5 { background-color: #9b59b6; }  /* Purple */
+
+
+@media (max-width: 768px) {
+   .hero-title{
+    text-align: center !important;
+   }
+   .logo{
+    text-align: center;
+   }
+  }
+  @media (max-width: 576px) {
+    .hero-title{
+     text-align: center !important;
+    }
+    .logo{
+        text-align: center;
+       }
+   }
+   @media (max-width: 400px) {
+    .hero-title{
+     text-align: center !important;
+    }
+    .logo{
+        text-align: center;
+       }
+   }
+   @media (max-width: 300px) {
+    .hero-title{
+     text-align: center !important;
+    }
+    .logo{
+        text-align: center;
+       }
+   }
